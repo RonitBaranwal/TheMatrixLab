@@ -1,0 +1,63 @@
+#search {
+    /* float: right; */
+    text-align: right;
+    font-size: 30px;
+    margin-right: 50px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+
+}
+#search-box {
+    width: 250px;
+    font-size: 30px;
+    border: none;
+    outline-style: none;
+}
+h1{
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+body {
+    background-image: url("./image_sky.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.first {
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.58); */
+    margin: 100px 50px;
+}
+.top{
+  padding: 5px;
+}
+.display{
+  overflow-y: scroll;
+}
+.span {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    font-size: 14px;
+    height: 80px;
+    background-color: blueviolet;
+    /* background-color: black; */
+    /* border: 10px solid black; */
+    box-shadow: 10px 5px 5px rgb(4, 3, 3);
+    border-radius: 10px;
+    margin: 20px;
+}
